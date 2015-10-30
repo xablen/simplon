@@ -1,0 +1,10 @@
+body {
+background-image: url("../images/casino.jpg");
+background-repeat:no-repeat;
+-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+background-size: cover; /* version standardisée */
+}
+
+h1 {
+text-align: center;
+}

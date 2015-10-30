@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <h1>Bienvenue au jeu de la roulette !</h1>
+
+    <div id="informations">
+    <p>Joueur : 100; Casino : 100</p>
+    </div>
+
+
+    <div id="jeu">
+      <select name="select_1" id="select_1">
+        <option value="1">Paire</option> 
+        <option value="2">Impaire</option>
+      </select>
+
+      <select name="select_2" id="choix_nombre">
+      </select>
+
+      <form>
+        <div>
+          <label for="somme">Saisissez une somme :</label>
+          <input type="text" id="montant"/></input>
+        </div>
+      </form>
+
+      <div id="go">
+           <button type="button" name="go">GO !</button>
+      </div>
+     </div>
+
+
+   <!--Import des Classes JS-->
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="js/number.js"></script>
+  <script type="text/javascript" src="js/tirage.js"></script>
+
+  </body>
+</html>
