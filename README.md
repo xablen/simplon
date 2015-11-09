@@ -7,7 +7,7 @@
 
 ===Semaine 2===
 
-* Cooki Clicker
+* Cookie Clicker
 
 
 ===Semaine 3===
@@ -19,6 +19,10 @@
 
 * Openfoodfact
 * Découverte de Meteor
+
+===Semaine 5===
+
+* FizzBuz
 
 ===Meteor===
 
