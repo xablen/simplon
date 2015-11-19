@@ -25,6 +25,10 @@
 * FizzBuz
 * Plus ou moins
 
+===Semaine 6===
+
+* Le problème du voyageur de commerce
+
 ===Meteor===
 
 * Chapitre 1  Introduction
