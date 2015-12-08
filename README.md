@@ -29,6 +29,18 @@
 
 * Le problème du voyageur de commerce
 
+===Semaine 7===
+
+* Création d'un projet Rails
+
+===Semaine 8===
+
+* Réalisez votre mini-blog
+
+===Semaine 9===
+
+* TPs : Création d'une application Push Mobile et calcul des fréquences
+
 ===Meteor===
 
 * Chapitre 1  Introduction
