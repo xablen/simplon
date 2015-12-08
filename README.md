@@ -36,6 +36,7 @@
 ===Semaine 8===
 
 * Réalisez votre mini-blog
+* Extra : Réalisation du jeu du plateau d'OpenClassrooms
 
 ===Semaine 9===
 
