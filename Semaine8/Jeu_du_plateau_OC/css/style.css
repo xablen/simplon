@@ -1,0 +1,158 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+html {
+  background: url(../img/background_by_drakakao.png) no-repeat center fixed;
+  -webkit background-size: : cover;
+  background-size: cover;
+}
+
+
+#conteneur {
+  display: block;
+  width:  520px;
+  height: 520px;
+  margin: auto;
+  margin-top: 50px;
+  background: #FFF;
+}
+
+h1 {
+  text-align: center;
+  font-variant: small-caps;
+  color: #010101;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+#map div {
+   display:inline;
+   float:left;
+   border:1px solid #385C93;
+   margin:0px;
+
+   width:50px;
+   height: 50px;
+  }
+
+#map p {
+   clear:left;
+   margin:0px;
+   padding:0px;
+   height:100% !important; height:1em;
+  }
+
+.blocs {
+   background:grey;
+}
+
+.joueur0 {
+   background-image: url("../img/player_1.jpg");
+}
+
+.joueur1 {
+   background-image: url("../img/player_2.jpg");
+}
+
+.Magie_Verte {
+   background-image: url("../img/magie_0.png");
+}
+
+.Magie_Bleue  {
+   background-image: url("../img/magie_1.png");
+}
+
+.Magie_Rouge  {
+   background-image: url("../img/magie_2.png");
+}
+
+.Magie_Noire  {
+   background-image: url("../img/magie_3.png");
+}
+
+.zone {
+  background-color: #F5D0A9;
+  opacity: 0.7;
+}
+
+#game-controls {
+  width: 750px;
+  height: 200px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.player-controls {
+  width: 200px;
+  height: 75px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.player-name_0 {
+  color: #E81A3D;
+}
+
+.player-name_1 {
+  color: #4284DB;
+}
+
+.player-status_0, .player-status_1 {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  height: 32.5px;
+  margin: 0px;
+  text-align: left;
+}
+
+.player-weapon-icon_0, .player-weapon-icon_1 {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  text-align: left;
+
+}
+
+.player-text-info_0, .player-text-info_1 {
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  height: 35px;
+  margin: 0px;
+}
+
+.player-hp_0, .player-hp_1 {
+  height: 20px;
+  margin: 0px 0px 5px 2px;
+  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; 
+}
+
+.player-weapon-specs_0, .player-weapon-specs_1 {
+  width: 100px;
+  height:100px;
+  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; 
+}
+
+#control-buttons {
+  width: 100px;
+  display: inline-block;
+  vertical-align:central; 
+}
+
+#combat-buttons {
+  width: 195px;
+  display: inline-block;
+  vertical-align: top;  
+}
+
+#combat-buttons button {
+  width: 75px;
+  height: 75px; 
+}

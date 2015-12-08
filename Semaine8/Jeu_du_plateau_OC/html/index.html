@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Jeu du Plateau</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+
+  <body>
+    <h1>Jeu du Plateau</h1>
+
+    <div id='conteneur'>
+      <div id="map"></div>
+    </div>
+
+    <div id="game-controls">
+            <div id="player0-controls" class="player-controls">
+                <h1><div class="player-name_0">Joueur 1</div></h1>
+                <div class="player-status_0">
+                    <div class="player-weapon-icon_0"></div>
+                      <div class="player-text-info_0">
+                        <div class="player-hp_0"></div>
+                          <div class="player-weapon-specs_0"></div>
+                    </div>
+                </div>
+            </div>
+          <div id="control-buttons">
+            <button type="button" OnClick="javascript:window.location.reload()" name="playGame">Nouvelle Partie</button>
+            </div>
+            <div id="combat-buttons">
+                <button type="button" name="attack" class="btnattack">Attaquer</button>
+                <button type="button" name="defense"class="btnattdef">Défendre</button>
+            </div>
+            <div id="player1-controls" class="player-controls">
+          <h1><div class="player-name_1">Joueur 2</div></h1>
+            <div class="player-status_1">
+                  <div class="player-weapon-icon_1"></div>
+                    <div class="player-text-info_1">
+                        <div class="player-hp_1"></div>
+                          <div class="player-weapon-specs_1"></div>
+     </div>
+
+    <!--Import des Classes JS-->
+    <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../js/map.js"></script>
+    <script type="text/javascript" src="../js/players.js"></script>
+    <script type="text/javascript" src="../js/weapons.js"></script>
+    <script type="text/javascript" src="../js/game.js"></script>
+    <script type="text/javascript" src="../js/fight.js"></script>
+  </body>
+</html>
