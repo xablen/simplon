@@ -42,6 +42,18 @@
 
 * TPs : Création d'une application Push Mobile et calcul des fréquences
 
+
+===Semaine 10===
+
+* Finalisation du cours OpenClassrooms sur Ruby On Rails
+
+===Semaine 11===
+
+* Partie 5 : Les formulaires niveau 2
+* Ajout pagination sur les commentaires
+* Ajout Twitter Bootstrap ou Zurb Foundation
+* Petit exercice sur gem Devise et Pundit
+
 ===Meteor===
 
 * Chapitre 1  Introduction
